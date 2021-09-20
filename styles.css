@@ -74,14 +74,15 @@ body {
 }
 
 li a {
+  padding-top: 7px;
   display: block;
-  font-family: 'Open Sans', sans-serif;
   color: white;
   font-weight: bold;
   font-size: 1.2rem;
   /* remove default underline and add our own with padding and border bottom */
   text-decoration: none;
   border-bottom: 1px solid white;
+  border-top: 1px solid white;
   padding-bottom: 0.5rem;
 }
 
