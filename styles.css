@@ -17,6 +17,7 @@ body {
   /* background is white by default but added for clarity */
   background: white;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .hamburger, .close {
