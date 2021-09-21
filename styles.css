@@ -128,8 +128,8 @@ body {
 
 .logo {
     color: white;
-    width: 58px;
-    height: 58px;
+    width: 70px;
+    
     padding-top: 4px;
     padding-left: 10px;
 }
@@ -141,8 +141,13 @@ body {
   height: 80px;
 }
 
+.kontakt {
+  display: flex;
+  justify-content: center;
+}
+
 .text {
-  padding-top: 5px;
+  padding-top: 15px;
   color: white;
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -180,9 +185,10 @@ body {
     }
 
     .naslov2{
-        padding: 20px 20px;
+        padding: 20px;
         font-size: 35px;
         color: white;
+        text-align: center;
     }
 
     .naslov3{
@@ -195,9 +201,14 @@ body {
     padding: 10px 30px;
     font-size: 20px;
     color: white;
+    line-height: 30px;
 }
 
     .logo {
       padding-top: 20px;
     }
 
+    .link {
+      text-decoration: none;
+      color: blueviolet;
+    }
